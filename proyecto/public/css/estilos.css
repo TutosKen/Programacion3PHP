@@ -1,0 +1,199 @@
+body{
+	 background: rgb(53,53,217);
+   background: linear-gradient(90deg, rgba(53,53,217,1) 18%, rgba(32,93,182,1) 43%, rgba(1,184,236,1) 73%, rgba(0,212,255,1) 100%); 
+}
+
+.alerta{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+  margin-top: 5px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgb(48,46,59);
+  background: linear-gradient(90deg, rgba(48,46,59,0.9892156691778273) 15%, rgba(55,66,73,1) 40%, rgba(52,52,66,1) 66%, rgba(32,40,42,1) 100%);
+  color: white;
+  text-align: center;
+}
+
+textarea{
+  resize: none;
+}
+
+#contenedor-pelicula{
+	float: left;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+#contenedor-pelicula p{
+	text-align: center;
+}
+
+.miniatura{
+	height: 242px;
+	width: 160px;
+	border-radius: 5px;
+}
+
+a{
+	color:white;
+	
+}
+
+a:hover{
+	color:yellow;
+	text-decoration: none;
+}
+
+.fondo{
+	background-color: #1f497a;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.fondo1{
+  background-color: #1f497a;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#datos-incorrectos{
+  display: none;  
+}
+
+.estiloli{
+  margin-left: 10px;
+}
+
+.margenheader{
+	margin-bottom: 10px;
+}
+
+.barra{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+  margin-top: 5px;
+background: rgb(48,46,59);
+background: linear-gradient(90deg, rgba(48,46,59,0.9892156691778273) 15%, rgba(55,66,73,1) 40%, rgba(52,52,66,1) 66%, rgba(32,40,42,1) 100%);
+}
+
+.barraAdmin{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+  margin-top: 5px;
+   background: rgb(241,87,15);
+background: linear-gradient(90deg, rgba(241,87,15,1) 5%, rgba(207,89,34,0.9976190305223652) 43%, rgba(255,29,0,1) 98%); 
+}
+}
+
+
+.tabla{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.sinop{
+  font-family: arial;
+  font-size: 16px;
+}
+
+.info-container{
+  background-color: #625cc3;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 80%;
+}
+
+.reproductor{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.btnadmin{
+  margin-top: 25px;
+  margin-left: 5px;
+}
+
+#servers{
+display: none;
+}
+
+@media only screen and (max-width:1220px){
+  .footer{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:630px){
+  .info-container{
+    display: none;
+  }
+}
+
+
+@media
+only screen and (max-width: 624px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  table th{
+  	display: none;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr { border: 1px solid #ccc; }
+
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 200px;
+    margin-left: 150px;
+  }
+  td:before {
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    width: 200px;
+    padding-right: 40px;
+    white-space: nowrap;
+    margin-left: -150px;
+  }
+  
+  .u td:nth-of-type(1):before { content: "ID Usuario"; }
+  .u td:nth-of-type(2):before { content: "Nombre de Usuario"; }
+  .u td:nth-of-type(3):before { content: "Contraseña"; }
+  .u td:nth-of-type(4):before { content: "rol";}
+  .u td:nth-of-type(5):before { content: "Acciones";}
+
+  .l td:nth-of-type(1):before { content: "Usuario";}
+  .l td:nth-of-type(2):before { content: "Fecha";}
+  .l td:nth-of-type(3):before { content: "Accion";}
+
+
